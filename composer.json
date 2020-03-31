@@ -20,16 +20,17 @@
         }
     ],
     "require": {
-        "ezsystems/ezpublish-kernel": "^6.13",
-        "hwi/oauth-bundle": "~0.4.0",
-        "doctrine/orm": "~2.4"
+        "ezsystems/ezpublish-kernel": "~7.5",
+        "hwi/oauth-bundle": "~0.6",
+        "doctrine/orm": "^2.6"
     },
     "require-dev": {
-        "phpunit/phpunit": "^5.7|^6.0"
+        "ezsystems/ezpublish-kernel": "~7.5",
+        "phpunit/phpunit": "^7.5"
     },
     "autoload": {
-        "psr-4": { 
-            "Netgen\\Bundle\\EzSocialConnectBundle\\": "bundle" 
+        "psr-4": {
+            "Netgen\\Bundle\\EzSocialConnectBundle\\": "bundle"
         }
     },
     "autoload-dev": {

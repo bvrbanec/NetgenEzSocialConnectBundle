@@ -18,7 +18,6 @@ This bundle makes use of [HWIOAuthBundle](https://github.com/hwi/HWIOAuthBundle)
 ## Known issues
 * The resource owner entity needs to be overriden from HWIOAuthBundle to enable siteaccess-specific client ids and keys.
   For now, we only support Facebook, Google, Linkedin and Twitter.
-* The bundle is based on HWIOAuthBundle 0.4, which supports Symfony >= 2.3, < 3.0. Symfony 3 is not supported yet.
 
 ## License, docs and installation instructions
 
@@ -29,4 +28,4 @@ This bundle makes use of [HWIOAuthBundle](https://github.com/hwi/HWIOAuthBundle)
 [Changelogs](doc/CHANGELOG-1.x.md)
 
 ## Copyright
-* Copyright (C) 2018 Netgen. All rights reserved.
+* Copyright (C) 2020 Netgen. All rights reserved.
